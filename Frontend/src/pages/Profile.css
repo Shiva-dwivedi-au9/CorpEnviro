@@ -1,0 +1,100 @@
+
+.UserTitle{
+    color: antiquewhite;
+}
+
+.profile{
+    background: rgba(4, 4, 12, 0.4);
+    float: right;
+    padding: 50px;
+    margin-right: 0px;
+    height: 88vh;
+    color: aliceblue;
+    text-align: justify;
+}
+
+.profile .name{
+    margin-right: 115px;
+}
+
+.profile .gender{
+    margin-right: 104px;
+}
+
+.profile .dept{
+    margin-right: 55px;
+}
+
+.profile .added{
+    margin-right: 83px;
+}
+
+.profile .joined{
+    margin-right: 80px;
+}
+
+.profile .contact{
+    margin-right: 55px;
+}
+
+.profile .role{
+    margin-right: 140px;
+}
+
+.profile button {
+    margin: 50px 18px;
+    padding: 10px;
+    background-color: #0e5da7;
+    font-size: 15px;
+    color: #fff;
+    outline: none;
+}
+
+.profile button i{
+    margin: 0 10px;
+    font-size: 25px;
+}
+
+.DisplayAnnouncements{
+    color: aliceblue;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.display{
+    position: absolute;
+    z-index: -10;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+
+.display h3{
+    color: whitesmoke;
+}
+
+.filtereByGender{
+    display: flex;
+    justify-content: space-around;
+}
+
+.filterFemale{
+    background: #cb2d3e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ef473a, #cb2d3e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ef473a, #cb2d3e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    padding: 40px 70px;
+    color: aliceblue;
+    margin-right: 10px;
+
+}
+
+.filterMale{
+    background: #00B4DB;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding:40px 70px;
+color: aliceblue;
+
+}
